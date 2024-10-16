@@ -1,0 +1,61 @@
+body {
+    color:rgb(252, 173, 84);
+    background: rgb(143, 248, 134);
+    margin: 25px;
+    font-family: "Afacad Flux", sans-serif;
+    margin-bottom: 120px;
+}
+header {
+    border-bottom: solid 2px rgb(240, 238, 230);
+    padding: 20px;
+    font-size: 80px;
+    color: rgb(252, 173, 84);
+}
+.chamada {
+    background: rgb(59, 34, 80);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+.chamada-texto {
+    margin-right: 7%;
+}
+h1 {
+    font-size: 60px;
+  }
+  p {
+    font-size: 50px;
+  }
+
+  img {
+    height: 200px;
+  }
+
+  .categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+  }
+
+  .categoria {
+    font-size: 37px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 70px;
+
+  }
+
+  .categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid rgb(255, 115, 0);
+}
+
+.categoria h2 {
+    color:rgb(255, 164, 60);
+}
